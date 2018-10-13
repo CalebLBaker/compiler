@@ -1,0 +1,113 @@
+LEFT_PAREN			(
+RIGHT_PAREN			)
+LEFT_BRACKET		[
+RIGHT_BRACKET		]
+LEFT_BRACE			{
+RIGHT_BRACE			}
+DOT					.
+COLON				:
+SEMI_COLON			;
+COMMA				,
+ASSIGNMENT			=
+LESS_THAN			<
+GREATER_THAN		>
+LOGICAL_NOT			!
+ADDITION			+
+SUBTRACT			-
+ASTERISK			*
+SLASH				/
+MODULO				%
+BITWISE_NOT			~
+BITWISE_OR			|
+BITWISE_XOR			^
+AMPERSAND			&
+ARROW				->
+ADD_ASSIGN			+=
+SUBTRACT_ASSIGN		-=
+MULTIPLY_ASSIGN		*=
+DIV_ASSIGN			/=
+MOD_ASSIGN			%=
+OR_ASSIGN			|=
+XOR_ASSIGN			^=
+AND_ASSIGN			&=
+INCREMENT			++
+DECREMENT			--
+LOGICAL_OR			||
+LOGICAL_XOR			^^
+RIGHT_SHIFT			>>
+LOGICAL_AND			&&
+LEFT_SHIFT			<<
+COMPARE				==
+NOT_EQUAL			!=
+LESS_EQUAL			<=
+GREATER_EQUAL		>=
+LEFT_SHIFT_EQUAL	<<=
+RIGHT_SHIFT_EQUAL	>>=
+CAST				CAST
+RETURN				return
+IF					if
+ELSE				else
+WHILE				while
+FOR					for
+SWITCH				switch
+CASE				case
+CONT				cont
+BREAK				break
+STRUCT				struct
+CLASS				class
+UNION				union
+INTERFACE			interface
+IMPL				impl
+FUNC				func
+PROC				proc
+VAR					var
+INDEX				ind
+REFERENCE			ref
+VALUE				val
+IMPORT				import
+FROM				from
+GLOBALLY			globally
+AS					as
+ALIAS				alias
+ENUM				enum
+CONST				const
+STATIC				static
+IDENTIFIER			[a-zA-Z0-9]+
+BINARY				(\+|-)?(0b)[01]+(\.[01]+)?(E(\+|-)?[01]+)?
+OCTAL				(\+|-)?(0o)[0-7]+(\.[0-7]+)?(E(\+|-)?[0-7]+)?
+DECIMAL				(\+|-)?(0d)?[0-9]+(\.[0-9]+)?(E(\+|-)?[0-9]+)?
+HEXADECIMAL			(\+|-)?(0x)[0-9a-fA-F]+(\.[0-9a-fA-F]+)?(E(\+|-)?[0-9a-fA-F]+)?
+CHARACTER_LITERAL	'([^'"\\]|\\.)'
+STRING_LITERAL		"([^'"\\]|\\.)*"
+COMMENT				//[^\N]*|/\*.*\*/
+
+							case ('=') : {
+							}
+							case ('<') : {
+							}
+							case ('>') : {
+							}
+							case ('!') : {
+							}
+							case ('+') : {
+							}
+							case ('-') : {
+							}
+							case ('*') : {
+							}
+							case ('/') : {
+							}
+							case ('%') : {
+							}
+							case ('|') : {
+							}
+							case ('^') : {
+							}
+							case ('&') : {
+							}
+							case ('\'') : {
+							}
+							case ('\"') : {
+							}
+							case ('0') : {
+							}
